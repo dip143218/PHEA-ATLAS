@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.vscode/
+.idea/
+
+*.log
+
+reports/
+data/PHEA_ATLAS_V10_READY.csv
+data/PHEA_ATLAS_V8_5_FINAL_DATASET*.csv
+data/phea_final_model_ready.csv
+data/phea_physics_informed_v6.csv
+data/phea_with_omega_lambda_v8.csv
+data/v10_selected_features.csv
