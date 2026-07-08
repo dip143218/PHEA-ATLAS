@@ -1,32 +1,40 @@
 # PHEA-ATLAS AI
 
-## Physics-Informed AI for High Entropy Alloy Phase Prediction
+> Physics-Informed Machine Learning Framework for High Entropy Alloy Phase Prediction
 
-PHEA-ATLAS AI is a physics-informed machine learning framework that predicts the probability of Single Phase formation in High Entropy Alloys (HEAs).
-
-The system combines metallurgical equations with an XGBoost machine learning model to provide fast and accurate predictions.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Flask](https://img.shields.io/badge/Flask-Web_App-green)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
 ## Live Demo
 
-https://phea-atlas-ai.onrender.com
+🌐 https://phea-atlas-ai.onrender.com
+
+---
+
+## Overview
+
+PHEA-ATLAS AI is a Physics-Informed Machine Learning framework developed for predicting the probability of Single Phase formation in High Entropy Alloys (HEAs).
+
+The model combines metallurgical equations with an XGBoost machine learning model to deliver fast and reliable predictions through a web interface.
 
 ---
 
 ## Features
 
-- Physics-informed feature engineering
-- High Entropy Alloy phase prediction
-- XGBoost ML model
-- Automatic PDF report generation
-- Interactive Web Interface
-- Scientific calculations
-- Fast online prediction
+- Physics-informed Feature Engineering
+- XGBoost Prediction Model
+- Automatic PDF Report Generation
+- Web-based User Interface
+- Scientific Alloy Calculations
+- Cloud Deployment using Render
 
 ---
 
-## Physics Parameters
+## Physics Features
 
 - ΔHmix
 - δ (Atomic Size Difference)
@@ -40,33 +48,24 @@ https://phea-atlas-ai.onrender.com
 
 ---
 
-## Technology
+## Technologies
 
-Python
-
-Flask
-
-XGBoost
-
-NumPy
-
-Pandas
-
-Scikit-learn
-
-HTML
-
-CSS
-
-JavaScript
-
-ReportLab
+- Python
+- Flask
+- XGBoost
+- NumPy
+- Pandas
+- Scikit-learn
+- HTML
+- CSS
+- JavaScript
+- ReportLab
 
 ---
 
 ## Project Structure
 
-```
+```text
 PHEA-ATLAS-AI
 │
 ├── app.py
@@ -79,15 +78,21 @@ PHEA-ATLAS-AI
 └── requirements.txt
 ```
 
----
-
 ## Installation
 
 ```bash
+git clone https://github.com/dip143218/PHEA-ATLAS-AI.git
+
+cd PHEA-ATLAS-AI
+
+pip install -r requirements.txt
+
+python app.py
+```
 
 ## Author
 
-Morsalin Hossain Dip
+**Morsalin Hossain Dip**
 
 Department of Materials and Metallurgical Engineering
 
@@ -95,8 +100,6 @@ Chittagong University of Engineering & Technology (CUET)
 
 Bangladesh
 
----
-
 ## License
 
-MIT License
+This project is licensed under the MIT License.
