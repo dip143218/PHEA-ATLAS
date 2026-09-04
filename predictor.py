@@ -153,7 +153,7 @@ class Predictor:
                 ),
 
                 "MixingEntropy": round(
-                    physics.get("mixing_entropy", 1.609), 3
+                    self.calculator.dimensionless_entropy(compositions), 3
                 ),
 
                 "MeanAtomicRadius": round(
